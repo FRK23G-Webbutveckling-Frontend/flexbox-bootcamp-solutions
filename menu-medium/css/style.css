@@ -1,0 +1,26 @@
+:root {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigation {
+    max-width: 1000px;
+    height: 3rem;
+    background: #eee;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation-icon {
+    height: 50%;
+    margin: auto auto auto 1rem; 
+}
+
+.navigation-link {
+    text-decoration: none;
+    color: #999;
+    margin: 1rem;
+}
+.navigation-link:hover {
+    color: #222;
+}
